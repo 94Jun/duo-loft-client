@@ -1,17 +1,14 @@
 import React from "react";
-import logo from "./logo.svg";
+import templogo from "./temp_logo.png";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>듀오 로프트</p>
-        <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-          Learn React
-        </a>
-      </header>
+      <div className="nav"> 홈 | 마이페이지 | 앨범 | 도장깨기</div>
+      <img src={templogo} alt="temp" />
+      <h1>Duo-Loft</h1>
+      <h3> 커플이 되어 탈출하세요!</h3>
     </div>
   );
 }
